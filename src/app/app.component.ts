@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hello-angular';
+  //String interpolation
+  title = ' Welcome To angular';
+  //Property binding
+  public image="/assets/images/logo1.jpg"
+  //Two-way Binding
+  public value=" "
+  //event binding
+  onClick()
+  {
+    alert("Welcome To Event Button")
+  }
 }
